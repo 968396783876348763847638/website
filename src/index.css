@@ -50,14 +50,15 @@
     object-fit:contain;
     border-radius:inherit;
   }
-  .brand-wordmark{
-    height:22px;width:auto;display:block;flex-shrink:0;
+  .brand-name{
+    font-size:24px;font-weight:800;color:#fff;letter-spacing:-.015em;line-height:1;
+    text-transform:lowercase;flex-shrink:0;
   }
   .brand-sub{
     font-size:15px;font-weight:600;color:var(--ink-soft);letter-spacing:-.01em;
     padding-left:10px;border-left:1px solid var(--line);line-height:1;
   }
-  footer .brand-wordmark{height:16px}
+  footer .brand-name{font-size:18px}
   footer .brand-sub{font-size:13px;padding-left:8px}
   .term-avatar img{
     width:100%;height:100%;

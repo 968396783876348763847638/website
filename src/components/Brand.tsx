@@ -4,7 +4,7 @@ export function Brand() {
       <span className="logo">
         <img src="/fomo-logo.svg" alt="" />
       </span>
-      <img className="brand-wordmark" src="/fomo-logo.svg" alt="FOMO" />
+      <span className="brand-name">fomo</span>
       <span className="brand-sub">Twitter Tracker</span>
     </>
   );

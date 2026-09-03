@@ -35,7 +35,7 @@ export function DropOverlay({ visible }: { visible: boolean }) {
   return (
     <div className="drop-overlay" aria-hidden="true">
       <div className="drop-arrows" ref={arrowLayerRef} />
-      <div className="drop-top">↑ ↑ DROP IN BOOKMARKS BAR ↑ ↑</div>
+      <div className="drop-top">↑ ↑ DROP IN SHORTCUTS BAR ↑ ↑</div>
       <div className="drop-center">
         <p className="drop-title">Drop it in the bar</p>
         <div className="drop-hint">

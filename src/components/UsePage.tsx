@@ -67,11 +67,11 @@ export function UsePage({ onShowDrop, onHideDrop }: UsePageProps) {
               <ol className="use-howto">
                 <li>
                   <span className="howto-text">
-                    Drag the button above to your bookmarks bar.
+                    Drag the button above to your shortcuts bar.
                     <KeyboardHint />
                   </span>
                 </li>
-                <li>Open the bookmark when you&apos;re ready to track.</li>
+                <li>Open the shortcut when you&apos;re ready to track.</li>
                 <li>Start selecting the accounts you want to track and buy.</li>
               </ol>
             </div>
