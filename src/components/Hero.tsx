@@ -74,7 +74,7 @@ export function Hero() {
                   <div className="term-line">
                     <span className="ok">✓ Auto-bought</span> <span className="h">1.5 SOL</span>{' '}
                     <span className="dim">via</span>{' '}
-                    <img className="term-via-logo" src="/fomo-logo.svg" alt="FOMO" />
+                    <img className="term-via-logo" src="/fomo-logo.png" alt="FOMO" />
                   </div>
                   <div className="term-line">
                     <span className="dim">filled 0.4s after tweet</span>
