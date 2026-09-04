@@ -24,7 +24,7 @@ export function useHeroTilt() {
     const stage = stageRef.current;
     const tweet = tweetRef.current;
 
-    if (!hero || !stage || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    if (!hero || !stage) {
       return;
     }
 
@@ -62,6 +62,7 @@ export function useHeroTilt() {
 
     hero.addEventListener('mousemove', onMove);
     hero.addEventListener('mouseleave', onLeave);
+    applyTilt(0.55, 0.35, false);
 
     return () => {
       cancelAnimationFrame(raf);

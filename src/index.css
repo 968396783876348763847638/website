@@ -89,7 +89,7 @@
     background:#050505;border-bottom:1px solid var(--line);
     overflow:hidden;white-space:nowrap;padding:11px 0;
   }
-  .ticker{display:inline-flex;animation:scroll 40s linear infinite;will-change:transform}
+  .ticker{display:flex;width:max-content;animation:scroll 40s linear infinite;will-change:transform}
   .ticker-wrap:hover .ticker{animation-play-state:paused}
   .tick{
     display:inline-flex;align-items:center;gap:10px;
@@ -170,9 +170,6 @@
   .arrow{display:inline-block;transition:transform .2s}
   .btn-primary:hover .arrow{transform:translateX(4px)}
   @keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
-  @media(prefers-reduced-motion:reduce){
-    *,*::before,*::after{animation:none!important;transition:none!important}
-  }
 
   
   .stat-strip{
